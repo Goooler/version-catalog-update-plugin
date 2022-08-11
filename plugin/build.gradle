@@ -13,10 +13,6 @@ gradlePlugin {
     }
 }
 
-repositories {
-    gradlePluginPortal()
-}
-
 dependencies {
     implementation project(":catalog")
 

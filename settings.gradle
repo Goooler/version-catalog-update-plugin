@@ -7,10 +7,16 @@ pluginManagement {
         id "com.vanniktech.maven.publish" version "0.18.0"
     }
 
-    dependencyResolutionManagement {
-        repositories {
-            mavenCentral()
-        }
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+        google()
     }
 }
 
